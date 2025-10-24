@@ -3,7 +3,6 @@ import React from "react";
 import { Text, View } from "react-native";
 import styles from "../Home/Style";
 import { BatLogo } from "../../components/BatLogo";
-import { BatTextInput } from "../../components/BatTextInput";
 import { BatButton } from "../../components/BatButton";
 
 const Home = () => {    
@@ -13,7 +12,6 @@ const Home = () => {
               <BatLogo/>
             </View>
             <View style={styles.inputContainer}>
-              <BatTextInput/>
               <BatButton/>
             </View>
             <Text>Home</Text>

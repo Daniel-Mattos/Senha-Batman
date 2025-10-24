@@ -5,12 +5,12 @@ import { styles } from './styles';
 
 export function BatLogo() {
   return (
-    <View>
+    <>
         <Text style={styles.title}>BatLogo</Text>
         <Image 
           source={batLogo}
-          style={{resizeMode: 'contain', height: 180}}
+          style={{resizeMode: 'contain', height: 180, width: '100%'}}
         />
-    </View>
+    </>
   );
 }

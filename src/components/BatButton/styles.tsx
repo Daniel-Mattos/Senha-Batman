@@ -1,7 +1,22 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  container: {
-    backgroundColor:'red',
+  button: {
+    marginTop:5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: 3,
+    elevation: 3,
+    backgroundColor: '#000000',
+  },
+  text:{
+    color: '#e5bf3c',
+    fontSize: 16,
+    lineHeight: 21,
+    fontWeight: 'bold',
+    letterSpacing: 0.25,
   }
 });

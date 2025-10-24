@@ -32,27 +32,26 @@ Pré-requisitos
 
 3. Expo CLI (Globalmente): Instale o cliente de linha de comando do Expo globalmente:
 
-npm install -g expo-cli
+- npm install -g expo-cli
 
 
-Instalação e Execução
+- Instalação e Execução
 
 1. Clone o repositório:
 
-git clone [(https://github.com/Daniel-Mattos/Senha-Batman.git)]
-cd Senha-Batman
+- git clone [(https://github.com/Daniel-Mattos/Senha-Batman.git)]
+- cd Senha-Batman
 
 
 2. Instale as dependências:
 
-npm install
-# ou yarn install
+- npm install
+- ou yarn install
 
 
 3. Inicie o aplicativo:
 
-expo start
-
+- expo start
 
 Após executar o comando, o Metro Bundler será iniciado. Você pode abrir o aplicativo de três maneiras:
 
